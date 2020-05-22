@@ -1,0 +1,32 @@
+
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+.table-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.table-content {
+    width: 99%;
+}
+
+.table-container .table {
+    margin-top: 30px;
+}
+
+.table-container .thead {
+    background-color: #017FBC;
+    color: white;
+}
+
+.table-container .table th, .table td {
+    border-color: #017FBC;
+}
+
+.table-container .icon-acao {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

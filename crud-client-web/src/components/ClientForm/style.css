@@ -1,0 +1,38 @@
+.form-container {
+    width:  100%;
+    max-width: 1120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.rows-columns2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container form input{
+    margin-bottom: -10px;
+}
+
+
+.submit-button {
+    width: 100%;
+    height: 60px;
+    background: #017FBC;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+.submit-button:hover {
+    filter: brightness(90%);
+}
+

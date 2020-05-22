@@ -1,0 +1,65 @@
+.app-header {
+    height: 60px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(1,127,188);
+}
+
+.app-logo {
+    max-width: 58px;
+    max-height: 58px;
+}
+
+.app-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+}
+
+.app-link {
+    text-decoration-color: #FFFFFF;
+    color: #FFFFFF
+}
+
+.app-link:active {
+    text-decoration-color: #FFFFFF;
+    color: #EAEAEA
+}
+
+
+.app-branding {
+    float: left;
+    margin-left: -60px;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-header .app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-header .app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-header .app-nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.app-header .app-nav ul li a:hover {
+    color: #A9A9A9;
+}
+
+.app-header .app-nav ul li a.active {
+    color: #A9A9A9;
+}

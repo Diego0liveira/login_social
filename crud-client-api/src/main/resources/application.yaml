@@ -1,0 +1,40 @@
+spring:
+    security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 564463589315-k1ha6bot7rvdr8t2jecujt6bvi1jb9dl.apps.googleusercontent.com
+              clientSecret: aEr9tFn0jZUTZGtHnOEQ1GLD
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - email
+                - profile
+            facebook:
+              clientId: 270807160715982
+              clientSecret: 5d9296b6f6876171a8b45af894f01938
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - email
+                - public_profile
+            github:
+              clientId: Iv1.e9edf76654eb6a38
+              clientSecret: 5d3a2af8f742edb9d603068044e5bdc7da56c83d
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - user:email
+                - read:user
+          provider:
+            facebook:
+              authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+              tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+              userInfoUri: https://graph.facebook.com/v3.0/me?fields=id,first_name,middle_name,last_name,name,email,verified,is_verified,picture.width(250).height(250)
+app:
+  auth:
+    tokenSecret: 926D96C90030DD58429D2751AC1BDBBC
+    tokenExpirationMsec: 864000000
+  oauth2:
+    authorizedRedirectUris:
+      - http://localhost:3000/oauth2/redirect
+      - myandroidapp://oauth2/redirect
+      - myiosapp://oauth2/redirect

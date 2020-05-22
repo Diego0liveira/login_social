@@ -1,0 +1,92 @@
+.client-container {
+  width: 100%;
+  background-color: #EAEAEA;
+}
+
+.client-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+    align-items: center;
+    color: #017FBC;
+}
+
+.app{
+  background-color: #EAEAEA;
+}
+
+.msg-table {
+  text-align: center;
+  margin-top: 100px;
+  color: #017FBC;
+}
+
+.div-search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.input-search {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.cadastro-button {
+    width: 10%;
+    height: 50px;
+    background: #017FBC;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-right: 13px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    transition: filter 0.2s;
+}
+
+.cadastro-button:hover {
+    filter: brightness(90%);
+}
+
+.header-modal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-close-modal {
+    width: 8%;
+    height: 30px;
+    background: #017FBC;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 8px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: filter 0.2s;
+}
+
+.button-close-modal:hover {
+    filter: brightness(90%);
+}
